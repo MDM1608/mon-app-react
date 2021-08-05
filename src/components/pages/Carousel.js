@@ -12,13 +12,13 @@ const Carousel = () =>(
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={require('./../../assets/jabbascriptmeme.jpg').default} className="d-block w-100" alt="slides"/>
+      <img src={require('../../assets/jabbascriptmeme.jpg').default} className="img-fluid" alt="slides"/>
     </div>
     <div className="carousel-item">
-      <img src={require('./../../gitforcememe.png').default} className="d-block w-100" alt="slides"/>
+      <img src={require('../../assets/gitforcememe.png').default} className="img-fluid" alt="slides"/>
     </div>
     <div className="carousel-item">
-      <img src={require('./../../memegit.jpeg').default} className="d-block w-100" alt="slides"/>
+      <img src={require('../../assets/memegit.jpeg').default} className="img-fluid" alt="slides"/>
     </div>'
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
